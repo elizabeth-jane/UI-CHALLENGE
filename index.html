@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrillers Travels</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#Home" class="brand">Thrillers Travel</a>
+        <div class="menu-btn"></div>
+        <div class="nav">
+            <div class="nav-items">
+                <a href="#Home">HOME</a>
+                <a href= "#Services">SERVICES</a>
+                <a href="#Form">BOOKINGS</a>
+            </div>
+
+        </div>
+
+    </header>
+
+    <section id="Home" class="home">
+        <video class="video-slide active" src="images/5.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="images/3.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="images/4.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="images/2.mp4" autoplay muted loop></video>
+       
+        <div class="container active">
+            <h1>Luxury <br><span>Getaways</span></h1>
+            <p>Delight in exclusive and upscale getaways designed for discerning travelers. Experience unparalleled comfort, personalized service, and exceptional amenities in the world's most luxurious destinations.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="container">
+            <h1>Romantic<br><span>Retreats</span></h1>
+            <p>Ignite the spark of romance with our dreamy and intimate retreats. Whether it's a private island getaway or a cozy cabin in the woods, our romantic escapes set the stage for unforgettable moments with your loved one.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="container">
+            <h1>Family<br><span>Adventures</span></h1>
+            <p>Create lifelong memories with your family on our exciting family adventures. From fun-filled theme parks to educational nature excursions, we cater to every family member's interests and ensure a truly enriching vacation.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="container">
+            <h1>Bespoke<br><span>Travel</span></h1>
+            <p>Tailor your travel experience to perfection with our bespoke services. Share your travel dreams, and we'll create a personalized itinerary that fulfills your desires, ensuring an unforgettable and seamless journey.</p>
+            <a href="#">Read More</a>
+        </div>
+        <div class="slider-nav">
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+        </div>
+
+    </section>
+
+    <!-- tab-links -->
+    <div class="hero">
+        <div class="btn-box">
+          <button id="btn1" onclick="openExplore()">EXPLORE</button>
+          <button id="btn2" onclick="openCruise()">CRUISE</button>
+          <button id="btn3" onclick="openAdventure()">ADVENTURE</button>
+        </div>
+    <section id="Services">
+      <div id="content1" class="content">
+          <div class="content-left">
+            <h1>Exotic Destinations Discovery</h1>
+            <p>Experience the thrill of discovering new and exotic destinations with our expertly crafted travel itineraries. Uncover hidden gems and immerse yourself in diverse cultures for unforgettable memories.</p>
+          <button>READ MORE</button>
+          </div>
+          <div class="content-right">
+            <img src="images/travel1.jpg" >
+            </div>
+            </div>
+    
+      <div  id="content2" class="content">
+          <div class="content-left">
+            <h1>Luxury Cruise Escapes</h1>
+            <p>Embark on a luxurious and indulgent cruise voyage, gliding through crystal-clear waters and visiting enchanting ports of call. Enjoy world-class amenities and let the sea breeze carry your worries away.</p>
+          <button>READ MORE</button>
+          </div>
+          <div class="content-right">
+            <img src="images/travel2.jpg" >
+            </div>
+            </div>
+    
+      <div  id="content3" class="content">
+          <div class="content-left">
+            <h1>Personalized Adventure Tours</h1>
+            <p>Satisfy your inner adventurer with our personalized adventure tours. From heart-pumping safaris to exhilarating mountain treks, our expert guides ensure you experience the world in the most thrilling way possible.</p>
+          <button>READ MORE</button>
+          </div>
+          <div class="content-right">
+            <img src="images/travel3.jpg" >
+            </div>
+            </div>
+      
+            </div>
+          </section>
+            <!-- form -->
+                   
+            <section id="Form" class="form-section">
+              <div class="form-container">
+                  <h2>Book Your Adventure Now!</h2>
+                  <form action="#" method="POST">
+                      <input type="text" name="name" placeholder="Your Name" required>
+                      <input type="email" name="email" placeholder="Your Email" required>
+                      <input type="text" name="destination" placeholder="Destination" required>
+                      <input type="date" name="date" required>
+                      <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                      <button type="submit">Submit</button>
+                  </form>
+              </div>
+            </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>
