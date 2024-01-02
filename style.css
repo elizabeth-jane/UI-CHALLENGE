@@ -121,6 +121,12 @@ section{
     margin-bottom: 12px;
 }
 
+.arrow{
+    position: flex;
+    flex-direction: flex-end;
+
+}
+
 .slider-nav .nav-btn{
     width: 12px;
     height: 12px;
@@ -148,7 +154,7 @@ section{
 }
 .video-slide.active{
     clip-path: circle(150% at 0% 50%);
-    transition: 2s ease;
+    transition: 1s ease;
    transition-property: clip-path;
 }
 
